@@ -1,0 +1,7 @@
+.modalPanel {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: black;
+    opacity: 1;
+}

@@ -1,16 +1,11 @@
 import React, { useRef, forwardRef } from "react";
-import Modal from "./Modal";
 import "./AddBtn.css";
 
-function AddBtn() {
-  const handleAddClick = () => {
-    console.log("handle on click ");
-    // openModal();
-  };
+function AddBtn({onClick}) {
+
   return (
     <>
-      <Modal />
-      <div className="addBtn" onClick={handleAddClick}>
+      <div className="addBtn" onClick={onClick}>
         AddBtn
       </div>
     </>
